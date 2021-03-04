@@ -54,7 +54,7 @@
 
 - Python에는 대부분의 자료구조가 구현되어 있다. Reference를 참고하여 확인해 보자.
   - List
-    - Queue(append, popleft), Stack(append, pop)
+    - Queue(append, pop(0)), Stack(append, pop)
   - Map
     - Dictionary
   - Set
