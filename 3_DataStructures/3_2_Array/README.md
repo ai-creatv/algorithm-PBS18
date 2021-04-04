@@ -19,6 +19,7 @@
   - 가변 길이 배열은 배열의 크기를 변경할 때 마다 새 배열을 만든다.
 - Element를 제거할 경우, 배열에 빈 틈이 생긴다.
   - 기존 Element의 인덱스를 유지하기 위해 빈 틈을 유지한다.
+  - **실제로는 Element의 삭제가 불가능하다.**
 
 ## 배열의 활용
 
@@ -53,7 +54,7 @@
     |----------|--------|-------------|-------|
     | b | signed char | int | 1 |
     | B | unsigned char | int | 1 |
-    | u | Py_UNOCODE | Unicode Character | 2 |
+    | u | Py_UNICODE | Unicode Character | 2 |
     | h | signed short | int | 2 |
     | H | unsigned short | int | 2 |
     | i | signed int | int | 2 |

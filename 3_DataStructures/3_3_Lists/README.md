@@ -44,11 +44,11 @@
   - 연결 리스트에서 각 연산의 복잡도
     - `is_empty()`: O(1)
     - `prepend()`: O(1)
-    - `append()`: O(n)
-    - `set_head(index)`: O(n)
+    - `append()`: O(1) (w/ access: O(n))
+    - `set_head(index)`: O(1) (w/ access: O(n))
     - `access(index)` : O(n)
-    - `insert(item, index)`: O(1) (w/o access)
-    - `remove(index)`: O(1) (w/o access)
+    - `insert(item, index)`: O(1) (w/ access: O(n))
+    - `remove(index)`: O(1) (w/ access: O(n))
 
 ## Python와 리스트
 
